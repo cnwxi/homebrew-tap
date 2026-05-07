@@ -8,4 +8,10 @@ cask "epub-tool-newui" do
   homepage "https://github.com/cnwxi/epub_tool"
 
   app "Epub Tool NewUI.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Epub Tool NewUI.app"],
+                   sudo: false
+  end
 end
