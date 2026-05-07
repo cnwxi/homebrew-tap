@@ -1,5 +1,5 @@
 cask "epub-tool-newui" do
-  version ""
+  version "26.5.7"
   sha256 "05745cc116be300083cbbd97ddb73581bf070b3c7c44fc71d3383f034af9e4b4"
 
   url "https://github.com/cnwxi/epub_tool/releases/download/v#{version}/Epub.Tool.NewUI_#{version}_macos_arm64.dmg"
