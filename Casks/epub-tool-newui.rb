@@ -1,8 +1,8 @@
 cask "epub-tool-newui" do
   version "26.7.21"
   arch arm: "arm64", intel: "x64"
-  sha256 arm: "06666fbba5c8ba3553b89ae295c15d6ac77dfc2d7c02d4b219c50ccc68c6a2c7",
-         intel: "8695b56d715b7d0e3e9c328c66b073e8c5b43d0dd65800673679c1d89aaa62a3"
+  sha256 arm: "147ca912ab4ef0ad7fb9dfe3df3ea154367859011efc4d3e52e5287c35acd59d",
+         intel: "4002e3cfbbe7dbbb054bd92fb6e875b22379d4655f3a647547fe95c499d72f17"
   url "https://github.com/cnwxi/epub_tool/releases/download/v#{version}/Epub.Tool.NewUI_#{version}_macos_#{arch}_small.dmg"
   name "Epub Tool NewUI"
   desc "EPUB 批量处理桌面工具"
